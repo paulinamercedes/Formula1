@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 15px;
+}
+
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+
+.pilotos {
+    width: 100%;
+    padding: 50px 10%;
+
+    text-align: center;
+
+    background: #f2f2f2;
+}
+
+.pilotos h2 {
+    margin-bottom: 15px;
+}
+
+.pilotos > p {
+    margin-bottom: 30px;
+}
+
+
+
+.lista-pilotos {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+
+.equipo {
+    background: white;
+
+    padding: 20px;
+
+    border: 1px solid #ccc;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.equipo h3 {
+    background: #111;
+
+    color: white;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+}
+
+.equipo p {
+    margin: 8px;
+}
+
+
+.background {
+    width: 100%;
+    height: 100vh;
+    padding: 0.1px;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url("img/hero.jpg");
+}
+
+.img2 {
+    background-image: url("img/fondo2.jpg");
+}
+
+.img3 {
+    background-image: url("img/fondo1.jpg");
+}
+
+
+.Titulo {
+    background: rgba(0, 0, 0, 0.75);
+
+    color: white;
+
+    width: 400px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: calc(50vh - 70px);
+}
+
+
+.Titulo h2 {
+    margin-bottom: 10px;
+}
+
+
+.Titulo:hover {
+    background: rgba(180, 0, 0, 0.85);
+    cursor: pointer;
+}
+
+
+.parrafo {
+    width: 100%;
+
+    min-height: 220px;
+
+    padding: 50px 15%;
+
+    text-align: center;
+
+    background: #f2f2f2;
+
+    color: #222;
+}
+
+
+.parrafo h2 {
+    margin-bottom: 20px;
+}
+
+
+.parrafo p {
+    font-size: 18px;
+
+    line-height: 1.7;
+}
+
+
+
+.footer {
+    background: #111;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+    line-height: 1.8;
+}
+
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
+
+.contacto {
+    background: #e9e9e9;
+    text-align: center;
+    padding: 50px 15%;
+}
+
+.contacto h2 {
+    margin-bottom: 15px;
+}
+
+.contacto p {
+    margin-bottom: 20px;
+}
+
+
+
+form {
+    width: 400px;
+    max-width: 100%;
+    margin: 30px auto;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form input[type="submit"] {
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: red;
+}
+
